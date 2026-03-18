@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
-python script.py --files data/math.csv data/programming.csv --report median-coffee
+python script.py --files data/math.csv data/physics.csv data/programming.csv --report median-coffee
 ```
 
 ## Available reports

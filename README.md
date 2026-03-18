@@ -1,0 +1,18 @@
+# CSV Report Script
+
+The script accepts CSV files, reads them, and calculates the median coffee spent per student. Outputs results to the terminal as a table.
+
+## Installation
+```bash
+git clone https://github.com/kit-kosatka/csv-report
+pip install -r requirements.txt
+```
+
+## Usage
+```bash
+python script.py --files math.csv programming.csv --report median-coffee
+```
+
+## Available reports
+
+- `median-coffee` — median coffee spent per student, sorted by descending

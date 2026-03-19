@@ -8,6 +8,11 @@ git clone https://github.com/kit-kosatka/csv-report
 pip install -r requirements.txt
 ```
 
+For development and tests:
+```bash
+pip install -r requirements-dev.txt
+```
+
 ## Usage
 ```bash
 python script.py --files data/math.csv data/physics.csv data/programming.csv --report median-coffee

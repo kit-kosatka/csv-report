@@ -16,3 +16,12 @@ python script.py --files data/math.csv data/physics.csv data/programming.csv --r
 ## Available reports
 
 - `median-coffee` — median coffee spent per student, sorted by descending
+
+## Example
+
+![Example](example.png)
+
+## Tests
+```bash
+pytest test_script.py
+```
